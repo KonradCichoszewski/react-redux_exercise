@@ -7,8 +7,8 @@ export default class ButtonsPanel extends React.Component{
  
     render(){
     return (
-        <div>
-            <h2>This is the buttons panel:</h2>
+        <div className = 'navBar'>
+            <h1 style={{textAlign: "center"}}>Click us!</h1>
             <div className='buttonsPanel'>
                 <p className='colorButton' onClick={() => store.dispatch(changeColor("red"))}>Red</p>
                 <p className='colorButton' onClick={() => store.dispatch(changeColor("yellow"))} >Yellow</p>

@@ -21,10 +21,12 @@ code {
 }
 
 #root{
-  padding: 10px;
-  margin: 10px;
-  border: solid white 10px;
-  min-height: 98vh;
+  min-height: 100vh;
+}
+
+.navBar {
+  background-color: rgb(199, 199, 199);
+  padding: 20px;
 }
 
 .buttonsPanel {
@@ -32,34 +34,37 @@ code {
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-evenly;
-  border: solid white 5px;
   padding: 10px;
-  margin-top: 10px;;
+  margin-top: 10px;
 }
 
 .colorButton{
-  border: solid white 5px;
   min-width: 10vw;
   min-height: 5vh;
   justify-content: center;
   display: inline-flex;
+  border-radius: 7px;
   align-items: center;
+  background-color: rgb(59, 59, 59);
 }
 
 .colorButton:hover{
-  background-color: rgb(63, 63, 63);
+  background-color: rgb(97, 97, 97);
 }
 
 .tileHolder{
-  margin-top: 40px;
+  margin-top: 20px;
+  padding: 20px;
   display: flex;
+  flex-flow: column;
   align-items: center;
   justify-content: space-evenly;
 }
 
 .tile{
-  width: 10vw;
-  height: 10vw;
+  width: 230px;
+  height: 230px;
+  border-radius: 15px;
   border: solid white 5px;
-  margin: 20px;
+  margin: 40px;
 }
